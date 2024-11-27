@@ -39,7 +39,7 @@
 
   <!--コントローラ作成-->
   <node name="controller_spawner" pkg="controller_manager" type="spawner"
-        args="arm_a_controller arm_b_controller
+        args="cobotta_a/arm_controller cobotta_b/arm_controller
 	            joint_state_controller" />
 
   <!--robot_state_publisher:
